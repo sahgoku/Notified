@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="notified">
+        <attr name="notified_icon" format="reference" />
+        <attr name="notified_count" format="integer" />
+
+    </declare-styleable>
+
+</resources>
