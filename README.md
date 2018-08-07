@@ -6,14 +6,14 @@ Step 1. Add the JitPack repository to your build file
 
     allprojects {
         repositories {
-			    ...
-			    maven { url 'https://jitpack.io' }
-		    }
+		    ...
+		    maven { url 'https://jitpack.io' }
+    	}
     }
   
 Step 2. Add the dependency
 
     dependencies {
-      implementation 'com.github.firminApp:EasyRequestMaker:v1.0.5'
+	implementation 'com.github.sahgoku:Notified:v1.0.1'
     }
  
