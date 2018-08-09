@@ -20,12 +20,12 @@ Step 2. Add the dependency
 ### Sample
 First create view in xml
 * notified_count : The number of nofifications unreaded
-* notified_icon : Icon selected
+* notified_icon : Chosen Icon
 
-      <com.jaures.notified.Notified
-        android:id="@+id/notified"
-        android:layout_width="55dp"
-       	android:layout_height="50dp"
-    	app:notified_count="20"
-       	app:notified_icon="@drawable/ic_notifications_black_24dp"/>
+	  <com.jaures.notified.Notified
+		android:id="@+id/notified"
+		android:layout_width="55dp"
+		android:layout_height="50dp"
+		app:notified_count="20"
+		app:notified_icon="@drawable/ic_notifications_black_24dp"/>
 
