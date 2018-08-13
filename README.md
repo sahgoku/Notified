@@ -14,7 +14,7 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency
 
     dependencies {
-	implementation 'com.github.sahgoku:Notified:v1.0.2'
+	  implementation 'com.github.sahgoku:Notified:v1.0.2'
     }
  
 ### Sample
