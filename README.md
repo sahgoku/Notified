@@ -1,5 +1,5 @@
 # Notified
-It is an Android library that informs the user of the number of his last unread notifications...
+Notified is an Android library that informs the user of the number of his last unread notifications...
 
 ### Usage
 Step 1. Add the JitPack repository to your build file
