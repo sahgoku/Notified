@@ -28,7 +28,6 @@ class Notified : FrameLayout {
         m_icon = view.findViewById(R.id.icon)
         m_number = view.findViewById(R.id.number)
 
-
         /*// Icon
         m_icon = ImageView(getContext())
         m_icon!!.setImageDrawable(ContextCompat.getDrawable(getContext(), R.drawable.ic_notifications_black_24dp))
@@ -37,7 +36,6 @@ class Notified : FrameLayout {
         val lp = LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT)
         lp.setMargins(10, 10, 10, 10)
         m_icon!!.layoutParams = lp
-
 
         // Notif
         frameLayout = FrameLayout(getContext())
@@ -58,7 +56,6 @@ class Notified : FrameLayout {
         text!!.setTextColor(Color.WHITE)
         text!!.textSize = 10f
         frameLayout!!.addView(text)
-
 
         this.addView(m_icon)
         this.addView(frameLayout)*/
