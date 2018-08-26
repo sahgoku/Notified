@@ -4,6 +4,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <!--<com.jaures.ntifi-->
+    <com.jaures.ntifiedlib.Notified
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
 
 </LinearLayout>
