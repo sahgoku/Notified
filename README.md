@@ -32,4 +32,6 @@ Add notified to your layout.
         app:notified_icon="@drawable/ic_bus"/>
 	
 ![Example](https://github.com/sahgoku/Notified/blob/master/example.png)
+![Example](https://github.com/sahgoku/Notified/blob/master/example1.png)
+
 
