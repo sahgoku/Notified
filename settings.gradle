@@ -1,1 +1,1 @@
-include ':app', ':notifiedlib'
+include ':app', 'notifiedlib'

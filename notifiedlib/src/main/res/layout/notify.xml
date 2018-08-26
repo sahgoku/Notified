@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -13,15 +13,15 @@
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_margin="10dp"
+            android:contentDescription="ICON"
             android:src="@drawable/ic_notifications_black_24dp"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="16dp"
-            android:contentDescription="ICON" />
+            tools:layout_editor_absoluteY="16dp" />
 
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="right|top"
+            android:layout_gravity="end|top"
             android:layout_margin="9dp"
             android:background="@drawable/ic_count">
 
@@ -35,9 +35,7 @@
                 android:singleLine="true"
                 android:textColor="#FFF"
                 android:textSize="10sp" />
-
         </FrameLayout>
-
     </FrameLayout>
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
