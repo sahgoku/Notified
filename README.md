@@ -20,4 +20,16 @@ Step 1. Add the JitPack repository to your build file
         
 ## Usage
 
-Add notified to your layout
+Add notified to your layout.
+
+* notified_icon : Selected icon 
+* notified_count : Number of unread notifications
+
+      <com.jaures.ntifiedlib.Notified
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:notified_count="567"
+        app:notified_icon="@drawable/ic_bus"/>
+	
+![Example](link-to-image)
+
