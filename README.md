@@ -31,5 +31,5 @@ Add notified to your layout.
         app:notified_count="567"
         app:notified_icon="@drawable/ic_bus"/>
 	
-![Example](link-to-image)
+![Example](https://github.com/sahgoku/Notified/blob/master/example.png)
 
