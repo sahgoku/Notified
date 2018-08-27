@@ -34,7 +34,7 @@ Step 1. Add the JitPack repository to your build file
 ![Example](https://github.com/sahgoku/Notified/blob/master/example.png)
 ![Example](https://github.com/sahgoku/Notified/blob/master/example1.png)
 
-### Kotlin.
+### Programmatically.
 
 * notified_icon : setIcon(Drawable icon)
 * notified_count : setNumber(int value)
