@@ -4,6 +4,7 @@
     <declare-styleable name="notified">
         <attr name="notified_icon" format="reference" />
         <attr name="notified_count" format="integer" />
+        <attr name="notified_color" format="color" />
 
     </declare-styleable>
 

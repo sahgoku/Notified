@@ -6,8 +6,8 @@
     android:orientation="vertical">
 
     <com.jaures.ntifiedlib.Notified
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        app:notified_count="3999" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:notified_count="07" />
 
 </LinearLayout>

@@ -7,7 +7,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
 
-<!--
         <activity
             android:name=".Main"
             android:label="HI">
@@ -16,7 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
--->
+
     </application>
 
 </manifest>
