@@ -31,10 +31,10 @@ Step 1. Add the JitPack repository to your build file
 * notified_icon : Selected icon 
 * notified_count : Number of unread notifications
 
-      <com.jaures.ntifiedlib.Notified
+      <com.jaures.notifiedlib.Notified
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:notified_count="567"
+        app:notified_count="57"
         app:notified_icon="@drawable/ic_bus"/>
 	
 
