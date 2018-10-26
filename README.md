@@ -27,16 +27,17 @@ Step 1. Add the JitPack repository to your build file
 
 ### Programmatically.
 
-        Notified nofified = (Notified) findViewById(R.id.notified);
+        Notified notified = (Notified) findViewById(R.id.notified);
 
-#### Set icon :
+  * Set icon :
 
-	nofified.setIcon(Drawable icon)
-	nofified.setIcon(Bitmap icon)
-	nofified.setIcon(Int resource)
+	    notified.setIcon(Drawable icon)
+	    notified.setIcon(Bitmap icon)
+	    notified.setIcon(Int resource)
 
-#### Set number of notifications : 
-	nofified.setNumber(int value)
+ * Set number of notifications : 
+   		
+	    notified.setNumber(int value)
 
 ### Add notified to your layout.
 <ol>
@@ -50,7 +51,7 @@ Step 1. Add the JitPack repository to your build file
         app:notified_count="57"
         app:notified_icon="@drawable/ic_bus"/>
 	
-### Informations.
+## Informations.
 When the number of notifications is more or equal to hundred, notified set "99+". 
 
 
