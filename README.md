@@ -27,13 +27,22 @@ Step 1. Add the JitPack repository to your build file
 
 ### Programmatically.
 
-* notified_icon : setIcon(Drawable icon)
-* notified_count : setNumber(int value)
+        Notified nofified = (Notified) findViewById(R.id.notified);
+
+#### Set icon :
+
+	nofified.setIcon(Drawable icon)
+	nofified.setIcon(Bitmap icon)
+	nofified.setIcon(Int resource)
+
+#### Set number of notifications : 
+	nofified.setNumber(int value)
 
 ### Add notified to your layout.
-
-* notified_icon : Selected icon  
-* notified_count : Number of unread notifications
+<ol>
+<li>notified_icon : Selected icon </li>
+<li>notified_count : Number of unread notifications</li>
+</ol>
 
       <com.jaures.notifiedlib.Notified
         android:layout_width="wrap_content"
@@ -41,5 +50,7 @@ Step 1. Add the JitPack repository to your build file
         app:notified_count="57"
         app:notified_icon="@drawable/ic_bus"/>
 	
+### Informations.
+When the number of notifications is more or equal to hundred, notified set "99+". 
 
 
