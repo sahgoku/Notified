@@ -1,3 +1,7 @@
+
+![alt text](https://github.com/sahgoku/Notified/blob/master/cover.png "Message")
+
+
 # Notified
 Notified is an Android library that informs the user of the number of his last unread notifications...
 
