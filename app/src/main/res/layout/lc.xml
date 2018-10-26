@@ -5,9 +5,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.jaures.ntifiedlib.Notified
+    <com.jaures.notifiedlib.Notified
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:notified_count="07" />
+        app:notified_count="89" />
 
 </LinearLayout>

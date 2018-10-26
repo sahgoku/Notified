@@ -1,4 +1,4 @@
-package com.jaures.ntifiedlib;
+package com.jaures.notifiedlib;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

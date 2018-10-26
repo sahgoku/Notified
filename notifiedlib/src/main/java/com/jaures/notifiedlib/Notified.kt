@@ -1,14 +1,10 @@
-package com.jaures.ntifiedlib
+package com.jaures.notifiedlib
 
 import android.content.Context
 import android.content.res.TypedArray
-import android.graphics.Color
 import android.graphics.drawable.Drawable
-import android.support.v4.content.ContextCompat
-import android.support.v4.graphics.drawable.DrawableCompat
 import android.util.AttributeSet
 import android.view.LayoutInflater
-import android.view.View
 import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
@@ -34,7 +30,7 @@ class Notified : FrameLayout {
         m_number = view.findViewById(R.id.number)
         m_background = view.findViewById(R.id.background)
 
-        m_icon!!.setVisibility(View.GONE);
+//        m_icon!!.setVisibility(View.GONE);
     }
 
     constructor(context: Context, attrs: AttributeSet?) : super(context, attrs) {
@@ -64,19 +60,18 @@ class Notified : FrameLayout {
             myIcon = a.getDrawable(R.styleable.notified_notified_icon)
 
             if (myIcon != null) {
-                m_icon!!.setVisibility(View.VISIBLE);
+//                m_icon!!.setVisibility(View.VISIBLE);
                 m_icon!!.setImageDrawable(myIcon)
             }
 
-
             // Retrieve color
-            val color: Int?;
-            color = a.getColor(R.styleable.notified_notified_color, Color.RED);
+            /* val color: Int?;
+             color = a.getColor(R.styleable.notified_notified_color, Color.RED);
 
-            if (color != null) {
-                DrawableCompat.setTint(m_background!!.getDrawable(), ContextCompat.getColor(context, color));
-                m_background
-            }
+             if (color != null) {
+                 DrawableCompat.setTint(m_background!!.getDrawable(), ContextCompat.getColor(context, color));
+ //                m_background
+             }*/
 
         } finally {
             a.recycle()
