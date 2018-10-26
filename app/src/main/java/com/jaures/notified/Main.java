@@ -16,7 +16,7 @@ public class Main extends Activity {
 
         Notified nofified = (Notified) findViewById(R.id.notified);
         nofified.setNumber(200);
-        nofified.setIcon(R.drawable.ic_android_black_24dp);
+        nofified.setIcon(R.mipmap.ic_launcher);
 
     }
 }
