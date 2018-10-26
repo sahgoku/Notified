@@ -6,6 +6,7 @@
     android:orientation="vertical">
 
     <com.jaures.notifiedlib.Notified
+        android:id="@+id/notified"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:notified_count="89" />

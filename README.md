@@ -28,7 +28,7 @@ Step 1. Add the JitPack repository to your build file
 
 ### Add notified to your layout.
 
-* notified_icon : Selected icon 
+* notified_icon : Selected icon  
 * notified_count : Number of unread notifications
 
       <com.jaures.notifiedlib.Notified

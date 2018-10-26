@@ -2,6 +2,7 @@ package com.jaures.notifiedlib
 
 import android.content.Context
 import android.content.res.TypedArray
+import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import android.view.LayoutInflater
@@ -42,14 +43,11 @@ class Notified : FrameLayout {
 
         try {
             // Retrieve Styleable Count
-            val number: String?;
-            number = a.getString(R.styleable.notified_notified_count);
-
+            val number: String? = a.getString(R.styleable.notified_notified_count);
             if (number != null) {
 
-                // More or equal to value 100
                 if (Integer.valueOf(number) >= 100) {
-                    m_number!!.text = context.getString(R.string.ninetine_nine_plus);
+                    moreThan();
                 } else
                     m_number!!.text = number
 
@@ -78,12 +76,29 @@ class Notified : FrameLayout {
         }
     }
 
+    // More or equal to value 100
+    fun moreThan() {
+        m_number!!.text = context.getString(R.string.ninetine_nine_plus);
+    }
+
     fun setNumber(number: Int) {
         m_number!!.text = number.toString()
+
+        if (Integer.valueOf(number) >= 100) {
+            moreThan();
+        }
     }
 
     fun setIcon(icon: Drawable) {
         m_icon!!.setImageDrawable(icon)
+    }
+
+    fun setIcon(icon: Bitmap) {
+        m_icon!!.setImageBitmap(icon)
+    }
+
+    fun setIcon(icon: Int) {
+        m_icon!!.setImageResource(icon)
     }
 
     constructor(context: Context, attrs: AttributeSet?, defStyleAttr: Int) : super(context, attrs, defStyleAttr) {}
