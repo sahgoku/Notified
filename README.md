@@ -51,7 +51,7 @@ Step 1. Add the JitPack repository to your build file
         app:notified_count="57"
         app:notified_icon="@drawable/ic_bus"/>
 	
-### Informations.
+## Informations.
 When the number of notifications is more or equal to hundred, notified set "99+". 
 
 
