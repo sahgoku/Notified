@@ -25,7 +25,7 @@ Step 1. Add the JitPack repository to your build file
 ## Usage
 
 
-### Programmatically.
+### Programmatically
 
         Notified notified = (Notified) findViewById(R.id.notified);
 
@@ -39,7 +39,7 @@ Step 1. Add the JitPack repository to your build file
    		
 	    notified.setNumber(int value)
 
-### Add notified to your layout.
+### Add notified to your layout
 <ol>
 <li>notified_icon : Selected icon </li>
 <li>notified_count : Number of unread notifications</li>
@@ -51,7 +51,7 @@ Step 1. Add the JitPack repository to your build file
         app:notified_count="57"
         app:notified_icon="@drawable/ic_bus"/>
 	
-## Informations.
+## Informations
 When the number of notifications is more or equal to hundred, notified set "99+". 
 
 
