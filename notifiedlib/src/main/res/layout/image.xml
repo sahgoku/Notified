@@ -15,5 +15,4 @@
         android:contentDescription="ICON"
         android:src="@drawable/ic_notifications_black_24dp" />
 
-
 </LinearLayout>
