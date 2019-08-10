@@ -3,7 +3,7 @@
 
 
 # Notified
-Notified is an Android library that informs the user of the number of his last unread notifications...
+Notified is an android view that displays the number of new elements...
 
 ## Installation
 
